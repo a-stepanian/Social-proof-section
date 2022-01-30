@@ -4,3 +4,82 @@
     box-sizing: border-box;
     font-family: 'Spartan', sans-serif;   
 }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    width: 86%;
+}
+.mainHeader {
+    text-align: center;
+    margin-top: 60px;
+}
+.mainHeader h1 {
+    font-size: 26px;
+    letter-spacing: -1px;
+    line-height: 26px;
+    color: hsl(300, 43%, 22%);
+}
+.mainHeader p {
+    padding: 20px 0;
+    font-size: 11.5px;
+    letter-spacing: -0.3px;
+    line-height: 20px;
+    font-weight: 500;
+    color: hsl(303, 10%, 53%);
+}
+.ratingContainer {
+    width: 100%;
+    margin: 12px 0;
+    padding: 12px 0;
+    border-radius: 5px;
+    text-align: center;
+    background-color: hsl(300, 24%, 96%);
+}
+.ratingContainer img {
+    transform: scale(0.8);
+}
+.ratingContainer p {
+    margin-top: 5px;
+    font-size: 11px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+.reviews {
+    margin-top: 40px;
+}
+.reviewContainer {
+    margin: 14px 0;
+    border-radius: 6px;
+    background-color: hsl(300, 43%, 22%);
+    padding: 10px 24px 24px 24px;
+    min-height: 200px;
+}
+.reviewHeader {
+    transform: translateX(-24px);
+    display: flex;
+    align-items: center;
+    padding: -20px;
+}
+.reviewHeader img {
+    transform: scale(0.4);
+    border-radius: 50%;
+}
+.reviewHeader h2 {
+    font-size: 10.5px;
+    font-weight: 500;
+    color: white;
+}
+.reviewHeader h3 {
+    font-size: 11px;
+    color: hsla(333, 80%, 67%, 60%);
+    font-weight: 400;
+}
+.reviewContainer p {
+    color: hsl(300, 24%, 96%);
+    font-size: 10.5px;
+    line-height: 16px;
+    letter-spacing: -0.4px;
+}
