@@ -21,7 +21,7 @@ Tablet
 
 Mobile
 
-![](./screenshots/mobile.jpg)
+![](./screenshots/mobile.JPG)
 
 ## Solution URL
 
